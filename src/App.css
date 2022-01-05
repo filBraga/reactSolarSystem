@@ -14,4 +14,28 @@ body {
   font-size: 30px;
 }
 
+.SolarSystemClass {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.PlanetCardClass{
+  width: 10%;
+}
+
+.MissionsClass {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.MissionCardClass {
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid white;
+  /* display: inline-block; */
+  width: 30%;
+  border-radius: 10%; /* POR QUE ESTÁ ESTRANHO? */
+}
+
 /* Styled component , emotion , Css in js , Material ui */
