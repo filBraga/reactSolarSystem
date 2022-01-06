@@ -11,7 +11,7 @@ class MissionCard extends React.Component {
     return (
 
       <div data-testid="mission-card" className="MissionCardClass">
-        <span data-testid="mission-name">{name}</span>
+        <span data-testid="mission-name" className="MissionCardClassName">{name}</span>
         <br />
         <span data-testid="mission-year">{year}</span>
         <br />
